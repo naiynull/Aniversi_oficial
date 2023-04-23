@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+
+body{
+    background-image: url(../img/ceu.jpg);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+}
+
+:root {
+    --principal: #ff6347;
+    --cads: #a185858e;
+    --cads02:#868686;
+    --mouse: #ff585879;
+    --detalhe: #ff6e6e;
+    --third-light: #d9d9d9;
+    --black: #000;
+    --texto: #FFF;
+
+}
+div picture img{
+    display: flex;
+    width: 700px;
+}
+header {
+    height: 3rem;
+    display: flex;
+    background-color:none;
+}
+
+header picture {
+    margin-left: 0.5rem;
+}
+header picture img {
+    margin-top: 20px;
+    width: 100px;
+}
+
+/*Navegação*/
+header nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    justify-content: right;
+    margin-top: 0;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+header nav ul li {
+    padding: 1rem; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    color:var(--texto);
+    font-weight: bold;
+}
+header nav ul li:hover {
+    background-color: var(--mouse);
+}
+
+main img{
+    width: 300px;
+}
+
+main h3{
+    width: 300px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin-left: 10px;
+}
+footer {
+    background: none;
+    height: 3rem;
+    position: fixed;
+    bottom: 0%;
+    width: 100;
+
+}
+
+footer img {
+    height: 100%;
+    padding: 0.4rem;
+
+}
